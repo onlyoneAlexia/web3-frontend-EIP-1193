@@ -1,0 +1,81 @@
+.root {
+    margin-top: 5rem;
+    padding: 4rem;
+    background-color: #eee;
+    box-shadow: .5rem .5rem 10rem rgb(172, 169, 169);
+    border-radius: 1rem;
+}
+
+.heading {
+    color: brown;
+    font-size: 2.2rem;
+    text-transform: capitalize;
+}
+
+.stake_body {
+    margin-top: 1.5rem;
+}
+
+.card_container {
+    display: flex;
+}
+
+.form {
+    margin-top: 1.5rem;
+}
+
+.input {
+    padding: .8rem;
+    border-radius: .2rem;
+    border: none;
+}
+
+.stake_btn {
+    padding: .8rem 1.2rem;
+    border: 0;
+    background-color: rgb(8, 153, 107);
+    border-radius: .3rem;
+    margin-left: 1rem;
+    width: 6rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.unstake_btn {
+    padding: .8rem 1.2rem;
+    border: 0;
+    background-color: brown;
+    border-radius: .3rem;
+    margin-left: 1rem;
+    width: 6rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn_diabled {
+    background-color: rgb(168, 164, 164);
+    cursor: not-allowed;;
+}
+.card{
+    background: #fafafa;
+    margin-top: 2rem;
+    max-width: 50%;
+    border-radius: 10px;
+    padding: 1rem .75rem;
+}
+.cc{
+    margin-bottom: 1rem;
+
+}
+
+.cch4 {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: brown;
+    padding-bottom: 30px;
+}
+
+.para{
+    max-width: 100%;
+    word-break: break-all;
+}

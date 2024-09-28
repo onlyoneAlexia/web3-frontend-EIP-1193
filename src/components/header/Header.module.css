@@ -1,0 +1,27 @@
+.root {
+    background: rgb(204,43,94);
+background: radial-gradient(circle, rgba(204,43,94,1) 0%, rgba(117,58,136,1) 100%);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2.3rem;
+    font-family: ui-monospace;
+    color: rgb(223, 225, 236);
+}
+
+.logo2 {
+    color: rgb(245, 7, 66);
+    font-size: 2.1rem;
+}
+
+.connect_btn {
+    background-color: rgb(8, 153, 107);
+    color: #fff;
+    font-size: 1.2rem;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1rem;
+}
