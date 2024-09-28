@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/header/Header';
 import MyStake from './components/MyStake/MyStake';
-import StakeHistory from './components/StakeHistory/StakeHistory';
 import {useState, useEffect} from 'react'
 import Footer from './components/Footer/Footer';
 import { ethers, utils, Contract } from 'ethers';
@@ -132,7 +131,7 @@ function App() {
       BRTTokenAbi,
       customProvider
     );
-    const stakeHistory = await BRTContractInstance.queryFilter("stakeEvent");
+  
 
     const history = [];
 
@@ -316,7 +315,7 @@ function App() {
           rewardAmount={rewardAmount}
           connected={connected}
         />
-        <StakeHistory stakeData={stateHistory} />
+     
       </main>
       <Footer />
     </div>
