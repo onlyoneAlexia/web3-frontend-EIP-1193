@@ -2,9 +2,7 @@ import './App.css';
 import Header from './components/header/Header';
 import {useState, useEffect} from 'react'
 import Footer from './components/Footer/Footer';
-import { ethers, utils, Contract } from 'ethers';
-import BRTTokenAbi from './utils/web3/abi.json'
-import { formatDate } from "./utils/helpers";
+
 
 function App() {
   // a flag for keeping track of whether or not a user is connected
